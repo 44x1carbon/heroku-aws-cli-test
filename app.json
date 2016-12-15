@@ -1,0 +1,20 @@
+{
+	"name": "awl-cli",
+	"scripts": {
+		"postdeploy": "aws configure"
+	},
+	"env": {
+		"AWS_ACCESS_KEY_ID": {
+
+		},
+		"AWS_SECRET_ACCESS_KEY": {
+
+		},
+		"AWS_DEFAULT_REGION": {
+			"value": "us-west-2"
+		},
+		"AWS_DEFAULT_OUTPUT": {
+			"value": "json"
+		}
+	}
+}
