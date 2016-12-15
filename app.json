@@ -1,8 +1,5 @@
 {
-	"name": "awl-cli",
-	"scripts": {
-		"postdeploy": "aws configure"
-	},
+	"name": "awl-cli",	
 	"env": {
 		"AWS_ACCESS_KEY_ID": {
 
